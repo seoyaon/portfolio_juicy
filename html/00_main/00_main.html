@@ -7,7 +7,7 @@
     <title>쥬씨</title>
     <link rel="stylesheet" href="../../lib/css/default.css">
     <link rel="stylesheet" href="../../lib/css/layout.css">
-    <link rel="stylesheet" href="../../lib/css/content.css">
+    <link rel="stylesheet" href="../../lib/css/main.css">
     <script type="text/javascript" src="../../lib/js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -15,7 +15,7 @@
     <!-- s:skipnavi -->
     <ul id="skipnavi">
         <li><a href="#gnbWrap">메뉴 바로가기</a></li>
-        <li><a href="#contents">본문 바로가기</a></li>
+        <li><a href="#contentsWrap">본문 바로가기</a></li>
         <li><a href="#footerWrap">하단 바로가기</a></li>
     </ul>
     <!-- //e:skipnavi -->
@@ -72,6 +72,13 @@
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
+                <script type="text/javascript">
+                    var swiper = new Swiper(".visual-image", {
+                            pagination: {
+                                el: ".swiper-pagination",
+                            },
+                        });
+                </script>
                 <ul class="main-iconfix">
                     <li><a href="javascript:void(0)"><img src="../../image/common/icon_qa.svg" alt="Q&A 아이콘"/>Q&A</a></li>
                     <li><a href="javascript:void(0)"><img src="../../image/common/icon_placeholder.svg" alt="매장찾기 아이콘"/>매장찾기</a></li>
@@ -207,34 +214,176 @@
             <!-- e:section-1 -->
             <!-- s:section-2 -->
             <section class="section-2">
-                
+                <div class="company-wrap">
+                    <h2>JUICY COMPANY is.</h2>
+                    <div class="swiper item-swiper">
+                        <div class="swiper-wrapper item-wrap">
+                            <div class="swiper-slide item-list">
+                                <div class="text-box">
+                                    <p>대중적인</p>
+                                    <p>종합 F&B 기업</p>
+                                    <div class="text_pop lime">
+                                        식음료 브랜드를 선도하는
+                                    </div>
+                                </div>
+                                <div class="deco-image">
+                                    <img src="../../image/main/img_deco_juice.png" alt="주스 이미지">
+                                </div>
+                            </div>
+                            <div class="swiper-slide item-list">
+                                <div class="text-box">
+                                    <p>전 세계 약 80개<br/> 매장 오픈</p>
+                                    <span>전 세계 네트워크를 보유한<br/> No.1 과일음료 브랜드</span>
+                                    <div class="text_pop blue">
+                                        '착한과일주스'를 전파하는
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide item-list">
+                                <div class="text-box">
+                                    <p>대중적인 식음료<br/> 브랜드 런칭</p>
+                                    <div class="text_pop yellow">
+                                        고망고, 차얌, 와피, 기기커피 등
+                                    </div>
+                                </div>
+                                <div class="deco-image">
+                                    <img src="../../image/main/img_deco_shop.png" alt="상점 이미지">
+                                </div>
+                            </div>
+                            <div class="deco">
+                                <img src="../../image/main/img_deco_shapes.png" alt="도형 이미지">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </section>
             <!-- e:section-2 -->
+            <ul class="scroll_list">
+                <li class="scroll-1">
+                    <span class="item">ALL NEW - JUICY</span>
+                </li>
+                <li class="scroll-2">
+                    <span class="item">JU EAT NOW</span>
+                </li>
+            </ul>
             <!-- s:section-3 -->
             <section class="section-3">
-                
+                <div class="news-wrap">
+                    <div class="title-wrap">
+                        <h2>쥬씨<span class="highlight">소식</span></h2>
+                        <p>싱싱한 쥬씨의<br/> 새소식을 전해드립니다!</p>
+                    </div>
+                    <ul class="news-list-wrap">
+                        <li>
+                            <a href="">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn more radius"><a href="">더 불러오기</a></button>
+                </div>
             </section>
             <!-- e:section-3 -->
             <!-- s:section-4 -->
             <section class="section-4">
-                
+                <div class="map-wrap">
+                    <div class="text-box">
+                        <h2>원하시는 지역의<br/> 매장을 검색해 보세요!</h2>
+                        <div class="search-wrap">
+                            <input type="text" name="searchKeyword" id="searchKeyword" placeholder="Find a store in your area!">
+                            <button type="button" class="btn-search"></button>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- e:section-4 -->
+            <div class="marquee">
+                <img src="../../image/main/main_marquee_txt.png" alt="ALL NEW-JUICY">
+            </div>
         </div> 
         <!-- //e:contentsWrap -->
         <!-- s:footerWrap -->
         <footer id="footerWrap">
-
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <img src="../../image/common/img_footer_logo.png" alt="Juicy logo">
+                </div>
+                <address>
+                    <span>
+                        서울특별시 성동구 왕십리로 16가길 24층<br/>
+                        영남사무소 : 부산광역시 수영구 광안2동 203-6 신화빌딩 5층
+                    </span>
+                    <a href="tel:1599-1028" class="info">TEL : 1599-1028</a>
+                    <span class="info">FAX: 051-754-0109</span>
+                </address>
+                <div class="btn-wrap">
+                    <a href="btn red">개인정보처리방침</a>
+                    <a href="btn red">쥬씨 가맹점주 커뮤니티</a>
+                </div>
+                <ul class="sns-wrap">
+                    <li><a href="../../image/common/icon_facebook.png"><img src="" alt="facebook icon"></a></li>
+                    <li><a href="../../image/common/icon_instagram.png"><img src="" alt="instagram icon"></a></li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>COPYRIGHT 2016 JUICY ALLRIGHTS RESERVED.</p>
+            </div>
         </footer>
         <!-- //e:footerWrap -->
     </div>
     <!-- //e:wrap -->
-    <script type="text/javascript">
-        var swiper = new Swiper(".visual-image", {
-                pagination: {
-                    el: ".swiper-pagination",
-                },
-            });
-    </script>
+
 </body>
 </html>
