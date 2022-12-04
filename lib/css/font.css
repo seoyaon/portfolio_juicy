@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 100;
+    font-style: normal;
+    src: url(../font/SpoqaHanSansNeo-Thin.eot);
+    src: url(../font/SpoqaHanSansNeo-Thin.eot#iefix) format('embedded-opentype'),
+        url(../font/SpoqaHanSansNeo-Thin.woff) format('woff')
+        url(../font/SpoqaHanSansNeo-Thin.woff2) format('woff2')
+        url(../font/SpoqaHanSansNeo-Thin.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 300;
+    font-style: normal;
+    src: url(../font/SpoqaHanSansNeo-Light.eot);
+    src: url(../font/SpoqaHanSansNeo-Light.eot#iefix) format('embedded-opentype'),
+        url(../font/SpoqaHanSansNeo-Light.woff) format('woff')
+        url(../font/SpoqaHanSansNeo-Light.woff2) format('woff2')
+        url(../font/SpoqaHanSansNeo-Light.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 400;
+    font-style: normal;
+    src: url(../font/SpoqaHanSansNeo-Regular.eot);
+    src: url(../font/SpoqaHanSansNeo-Regular.eot#iefix) format('embedded-opentype'),
+        url(../font/SpoqaHanSansNeo-Regular.woff) format('woff')
+        url(../font/SpoqaHanSansNeo-Regular.woff2) format('woff2')
+        url(../font/SpoqaHanSansNeo-Regular.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 500;
+    font-style: normal;
+    src: url(../font/SpoqaHanSansNeo-Medium.eot);
+    src: url(../font/SpoqaHanSansNeo-Medium.eot#iefix) format('embedded-opentype'),
+        url(../font/SpoqaHanSansNeo-Medium.woff) format('woff')
+        url(../font/SpoqaHanSansNeo-Medium.woff2) format('woff2')
+        url(../font/SpoqaHanSansNeo-Medium.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'SpoqaHanSansNeo';
+    font-weight: 700;
+    font-style: normal;
+    src: url(../font/SpoqaHanSansNeo-Bold.eot);
+    src: url(../font/SpoqaHanSansNeo-Bold.eot#iefix) format('embedded-opentype'),
+        url(../font/SpoqaHanSansNeo-Bold.woff) format('woff')
+        url(../font/SpoqaHanSansNeo-Bold.woff2) format('woff2')
+        url(../font/SpoqaHanSansNeo-Bold.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'Bowlby One';
+    src: url(../font/BowlbyOne-Regular.eot);
+    src: url(../font/BowlbyOne-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../font/BowlbyOne-Regular.woff2) format('woff2'),
+        url(../font/BowlbyOne-Regular.woff) format('woff'),
+        url(../font/BowlbyOne-Regular.ttf) format('truetype'),
+        url(../font/BowlbyOne-Regular.svg#BowlbyOne-Regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

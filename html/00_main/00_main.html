@@ -7,8 +7,11 @@
     <title>쥬씨</title>
     <link rel="stylesheet" href="../../lib/css/default.css">
     <link rel="stylesheet" href="../../lib/css/layout.css">
+    <link rel="stylesheet" href="../../lib/css/font.css">
+    <link rel="stylesheet" href="../../lib/css/slick.css">
     <link rel="stylesheet" href="../../lib/css/main.css">
     <script type="text/javascript" src="../../lib/js/jquery-3.6.0.min.js"></script>
+    <script src="../../lib/js/slick.min.js"></script>
 </head>
 <body>
     <!-- ********** Include ********** -->
@@ -30,77 +33,115 @@
         <!-- s:contentsWrap -->
         <div id="contentsWrap">
             <div class="visual-wrap">
-                <!-- Swiper -->
-                <div class="swiper image-wrap">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                <!-- slick -->
+                <div class="visual-slick">
+                    <div class="slick-list">
+                        <div class="default-wrap">
                             <div class="text-wrap">
-                                <h2>
+                                <h2 class="color-FFFFFF">
                                     상큼 달달한<br/>
-                                    복숭아 그대로-
+                                    복숭아 그대로
                                 </h2>
                                 <a href="javascript:void(0)" class="btn more">자세히 보기</a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                    </div>
+                    <div class="slick-list">
+                        <div class="default-wrap">
                             <div class="text-wrap">
-                                <h2>
-                                    달콤한 휴식,<br/>
-                                    과일 블렌딩티
-                                </h2>
-                                <a href="javascript:void(0)" class="btn more">자세히 보기</a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="text-wrap">
-                                <h2>
+                                <h2 class="color-FFFFFF">
                                     딩귤딩귤 댓글달고<br/>
                                     딩귤패키지 받자!
                                 </h2>
                                 <a href="javascript:void(0)" class="btn more">자세히 보기</a>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                    </div>
+                    <div class="slick-list">
+                        <div class="default-wrap">
                             <div class="text-wrap">
-                                <h2>
-                                    겨울 신메뉴 출시!<br/>
-                                    떠먹는 딸기케이크
+                                <h2 class="color-FFFFFF">
+                                    내가 愛랑하는<br/>
+                                    대만식 샌드위치
                                 </h2>
                                 <a href="javascript:void(0)" class="btn more">자세히 보기</a>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    <div class="slick-list">
+                        <div class="default-wrap">
+                            <div class="text-wrap">
+                                <h2 class="color-FFFFFF">
+                                    피치 오아시스<br/>
+                                    복숭아주스
+                                </h2>
+                                <a href="javascript:void(0)" class="btn more">자세히 보기</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <script type="text/javascript">
-                    var swiper = new Swiper(".visual-image", {
-                            pagination: {
-                                el: ".swiper-pagination",
-                            },
-                        });
+                    $('.visual-slick').slick({
+                        infinite: true,
+                        dots: true,
+                        arrows: false,
+                        fade: true,
+                        autoplay: true,
+                        autoplaySpeed: 4000,
+                    });
                 </script>
                 <ul class="main-iconfix">
-                    <li><a href="javascript:void(0)"><img src="../../image/common/icon_qa.svg" alt="Q&A 아이콘"/>Q&A</a></li>
-                    <li><a href="javascript:void(0)"><img src="../../image/common/icon_placeholder.svg" alt="매장찾기 아이콘"/>매장찾기</a></li>
-                    <li><a href="javascript:void(0)"><img src="../../image/common/icon_shop.svg" alt="가맹상담 아이콘"/>가맹상담</a></li>
-                    <li><a href="javascript:void(0)"><img src="../../image/common/icon_delivery.svg" alt="딜리버리 아이콘"/>딜리버리</a></li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="icon-wrap">
+                                <img src="../../image/common/icon_qa.svg" alt="Q&A 아이콘"/>
+                            </span>
+                            <span class="text">Q&A</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="icon-wrap">
+                                <img src="../../image/common/icon_placeholder.svg" alt="매장찾기 아이콘"/>
+                            </span>
+                            <span class="text">매장찾기</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="icon-wrap">
+                                <img src="../../image/common/icon_shop.svg" alt="가맹상담 아이콘"/>
+                            </span>
+                            <span class="text">가맹상담</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="icon-wrap">
+                                <img src="../../image/common/icon_delivery.svg" alt="딜리버리 아이콘"/>
+                            </span>
+                            <span class="text">딜리버리</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- s:section-1 -->
             <section class="section-1">
                 <div class="menu-wrap">
-                    <h2>JUICY MENU</h2>
+                    <h2 class="mb56 bowlbyone">JUICY MENU</h2>
                     <ul class="tab-menu">
-                        <li>COFFEE</li>
+                        <li class="active">COFFEE</li>
                         <li>JUICE</li>
                         <li>FRUIT PACK</li>
                         <li>DESSERT</li>
                         <li>SEASON</li>
                     </ul>
-                    <ul class="tab-contents">
-                        <li class="menu coffee">
-                            <div class="image-wrap"></div>
-                            <div class="desc-wrap">
+                </div>
+                <ul class="tab-contents">
+                    <li class="menu coffee active">
+                        <div class="image-wrap"></div>
+                        <div class="desc-wrap">
+                            <div class="inner">
                                 <div class="sub-desc">
                                     <strong>COFFEE</strong>
                                     <p>
@@ -112,17 +153,22 @@
                                         <span><img src="../../image/main/img_menu_cf02.png" alt="달고나라떼 이미지"/></span>
                                     </div>
                                 </div>
-                                <ul class="popular-menu">
-                                    <li><img src="../../image/main/img_popular_cf01.png" alt="1리터 아메리카노"/><span>1리터 아메리카노</span></li>
-                                    <li><img src="../../image/main/img_popular_cf02.png" alt="바닐라라떼"/><span>바닐라라떼</span></li>
-                                    <li><img src="../../image/main/img_popular_cf03.png" alt="카라멜마끼야또"/><span>카라멜마끼야또</span></li>
-                                </ul>
+                                <div class="popular-wrap">
+                                    <p>인기메뉴</p>
+                                    <ul class="popular-menu">
+                                        <li><img src="../../image/main/img_popular_cf01.png" alt="1리터 아메리카노"/><span>1리터 아메리카노</span></li>
+                                        <li><img src="../../image/main/img_popular_cf02.png" alt="바닐라라떼"/><span>바닐라라떼</span></li>
+                                        <li><img src="../../image/main/img_popular_cf03.png" alt="카라멜마끼야또"/><span>카라멜마끼야또</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="img signature"><img src="../../image/main/img_signature_coffee.png" alt="아이스 아메리카노 이미지"/></div>
-                        </li>
-                        <li class="menu juice">
-                            <div class="image-wrap"></div>
-                            <div class="desc-wrap">
+                        </div>
+                        <div class="img signature"><img src="../../image/main/img_signature_coffee.png" alt="아이스 아메리카노 이미지"/></div>
+                    </li>
+                    <li class="menu juice">
+                        <div class="image-wrap"></div>
+                        <div class="desc-wrap">
+                            <div class="inner">
                                 <div class="sub-desc">
                                     <strong>JUICE</strong>
                                     <p>
@@ -134,17 +180,22 @@
                                         <span><img src="../../image/main/img_menu_ju02.png" alt="키위오렌지 이미지"/></span>
                                     </div>
                                 </div>
-                                <ul class="popular-menu">
-                                    <li><img src="../../image/main/img_popular_ju01.png" alt="딸바"><span>딸바</span></li>
-                                    <li><img src="../../image/main/img_popular_ju02.png" alt="수박주스"><span>수박주스</span></li>
-                                    <li><img src="../../image/main/img_popular_ju03.png" alt="초바"><span>초바</span></li>
-                                </ul>
+                                <div class="popular-wrap">
+                                    <p>인기메뉴</p>
+                                    <ul class="popular-menu">
+                                        <li><img src="../../image/main/img_popular_ju01.png" alt="딸바"><span>딸바</span></li>
+                                        <li><img src="../../image/main/img_popular_ju02.png" alt="수박주스"><span>수박주스</span></li>
+                                        <li><img src="../../image/main/img_popular_ju03.png" alt="초바"><span>초바</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="img signature"><img src="../../image/main/img_signature_juice.png" alt="딸기바나나 이미지"></div>
-                        </li>
-                        <li class="menu fruitpack">
-                            <div class="image-wrap"></div>
-                            <div class="desc-wrap">
+                        </div>
+                        <div class="img signature"><img src="../../image/main/img_signature_juice.png" alt="딸기바나나 이미지"></div>
+                    </li>
+                    <li class="menu fruitpack">
+                        <div class="image-wrap"></div>
+                        <div class="desc-wrap">
+                            <div class="inner">
                                 <div class="sub-desc">
                                     <strong>FRUIT PACK</strong>
                                     <p>
@@ -156,17 +207,22 @@
                                         <span><img src="../../image/main/img_menu_fp02.png" alt="파인팩 이미지"/></span>
                                     </div>
                                 </div>
-                                <ul class="popular-menu">
-                                    <li><img src="../../image/main/img_menu_fp01.png" alt="수박팩"><span>수박팩</span></li>
-                                    <li><img src="../../image/main/img_menu_fp02.png" alt="파인팩"><span>파인팩</span></li>
-                                    <li><img src="../../image/main/img_popular_fp03.png" alt="1KG 과일팩"><span>1KG 과일팩</span></li>
-                                </ul>
+                                <div class="popular-wrap">
+                                    <p>인기메뉴</p>
+                                    <ul class="popular-menu">
+                                        <li><img src="../../image/main/img_menu_fp01.png" alt="수박팩"><span>수박팩</span></li>
+                                        <li><img src="../../image/main/img_menu_fp02.png" alt="파인팩"><span>파인팩</span></li>
+                                        <li><img src="../../image/main/img_popular_fp03.png" alt="1KG 과일팩"><span>1KG 과일팩</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="img signature"><img src="../../image/main/img_signature_fruitpack.png" alt="과일팩 이미지"></div>
-                        </li>
-                        <li class="menu dessert">
-                            <div class="image-wrap"></div>
-                            <div class="desc-wrap">
+                        </div>
+                        <div class="img signature"><img src="../../image/main/img_signature_fruitpack.png" alt="과일팩 이미지"></div>
+                    </li>
+                    <li class="menu dessert">
+                        <div class="image-wrap"></div>
+                        <div class="desc-wrap">
+                            <div class="inner">
                                 <div class="sub-desc">
                                     <strong>DESSERT</strong>
                                     <p>
@@ -178,17 +234,22 @@
                                         <span><img src="../../image/main/img_menu_de02.png" alt="뚱카롱 이미지"/></span>
                                     </div>
                                 </div>
-                                <ul class="popular-menu">
-                                    <li><img src="../../image/main/img_popular_de01.png" alt="수플레치즈케이크"><span>수플레치즈케이크</span></li>
-                                    <li><img src="../../image/main/img_popular_de02.png" alt="비스킷슈 플레인"><span>비스킷슈 플레인</span></li>
-                                    <li><img src="../../image/main/img_popular_de03.png" alt="스트로베리 마카롱"><span>스트로베리 마카롱</span></li>
-                                </ul>
+                                <div class="popular-wrap">
+                                    <p>인기메뉴</p>
+                                    <ul class="popular-menu">
+                                        <li><img src="../../image/main/img_popular_de01.png" alt="수플레치즈케이크"><span>수플레치즈케이크</span></li>
+                                        <li><img src="../../image/main/img_popular_de02.png" alt="비스킷슈 플레인"><span>비스킷슈 플레인</span></li>
+                                        <li><img src="../../image/main/img_popular_de03.png" alt="스트로베리 마카롱"><span>스트로베리 마카롱</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="img signature"><img src="../../image/main/img_signature_dessert.png" alt="벨기에와플 이미지"></div>
-                        </li>
-                        <li class="menu season">
-                            <div class="image-wrap"></div>
-                            <div class="desc-wrap">
+                        </div>
+                        <div class="img signature"><img src="../../image/main/img_signature_dessert.png" alt="벨기에와플 이미지"></div>
+                    </li>
+                    <li class="menu season">
+                        <div class="image-wrap"></div>
+                        <div class="desc-wrap">
+                            <div class="inner">
                                 <div class="sub-desc">
                                     <strong>SEASON</strong>
                                     <p>
@@ -200,85 +261,125 @@
                                         <span><img src="../../image/main/img_menu_se02.png" alt="체리초코프라페 이미지"/></span>
                                     </div>
                                 </div>
-                                <ul class="popular-menu">
-                                    <li><img src="../../image/main/img_popular_se01.png" alt="체리에이드"><span>체리에이드</span></li>
-                                    <li><img src="../../image/main/img_popular_se02.png" alt="블루베리뱅쇼"><span>블루베리뱅쇼</span></li>
-                                    <li><img src="../../image/main/img_popular_se03.png" alt="오렌지레몬티"><span>오렌지레몬티</span></li>
-                                </ul>
+                                <div class="popular-wrap">
+                                    <p>인기메뉴</p>
+                                    <ul class="popular-menu">
+                                        <li><img src="../../image/main/img_popular_se01.png" alt="체리에이드"><span>체리에이드</span></li>
+                                        <li><img src="../../image/main/img_popular_se02.png" alt="블루베리뱅쇼"><span>블루베리뱅쇼</span></li>
+                                        <li><img src="../../image/main/img_popular_se03.png" alt="오렌지레몬티"><span>오렌지레몬티</span></li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="img signature"><img src="../../image/main/img_signature_season.png" alt="딸기요거트 이미지"></div>
-                        </li>
-                    </ul>
-                </div>
+                        </div>
+                        <div class="img signature"><img src="../../image/main/img_signature_season.png" alt="딸기요거트 이미지"></div>
+                    </li>
+                </ul>
             </section>
             <!-- e:section-1 -->
             <!-- s:section-2 -->
-            <section class="section-2">
-                <div class="company-wrap">
-                    <h2>JUICY COMPANY is.</h2>
-                    <div class="swiper item-swiper">
-                        <div class="swiper-wrapper item-wrap">
-                            <div class="swiper-slide item-list">
-                                <div class="text-box">
-                                    <p>대중적인</p>
-                                    <p>종합 F&B 기업</p>
-                                    <div class="text_pop lime">
-                                        식음료 브랜드를 선도하는
-                                    </div>
-                                </div>
-                                <div class="deco-image">
-                                    <img src="../../image/main/img_deco_juice.png" alt="주스 이미지">
+            <section class="section-2 pt180 pb180">
+                <div class="company-wrap default-wrap">
+                    <h2 class="font64 color-FF001E ta-c bowlbyone mb100">JUICY COMPANY is.</h2>
+                    <div class="item-slick">
+                        <div class="item-list">
+                            <div class="text-box">
+                                <p>대중적인</p>
+                                <p>종합 F&B 기업</p>
+                                <div class="text_pop lime bottom-arrow">
+                                    <span class="font24 bold">식음료 브랜드를 선도하는</span>
                                 </div>
                             </div>
-                            <div class="swiper-slide item-list">
-                                <div class="text-box">
-                                    <p>전 세계 약 80개<br/> 매장 오픈</p>
-                                    <span>전 세계 네트워크를 보유한<br/> No.1 과일음료 브랜드</span>
-                                    <div class="text_pop blue">
-                                        '착한과일주스'를 전파하는
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide item-list">
-                                <div class="text-box">
-                                    <p>대중적인 식음료<br/> 브랜드 런칭</p>
-                                    <div class="text_pop yellow">
-                                        고망고, 차얌, 와피, 기기커피 등
-                                    </div>
-                                </div>
-                                <div class="deco-image">
-                                    <img src="../../image/main/img_deco_shop.png" alt="상점 이미지">
-                                </div>
-                            </div>
-                            <div class="deco">
-                                <img src="../../image/main/img_deco_shapes.png" alt="도형 이미지">
+                            <div class="deco-image">
+                                <img src="../../image/main/img_deco_juice.png" alt="주스 이미지">
                             </div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
+                        <div class="item-list">
+                            <div class="text-box ta-c">
+                                <p class="mb24">전 세계 약 80개<br/> 매장 오픈</p>
+                                <span class="font24">전 세계 네트워크를 보유한<br/> No.1 과일음료 브랜드</span>
+                                <span class="text_pop blue bottom-arrow">
+                                    <span class="font24 bold color-FFFFFF">'착한과일주스'를 전파하는</span>
+                                </div>
+                        </div>
+                        <div class="item-list">
+                            <div class="text-box">
+                                <p class="ta-c">대중적인 식음료<br/> 브랜드 런칭</p>
+                                <div class="text_pop yellow top-arrow">
+                                    <span class="font24 bold">고망고, 차얌, 와피, 기기커피 등</span>
+                                </div>
+                            </div>
+                            <div class="deco-image">
+                                <img src="../../image/main/img_deco_shop.png" alt="상점 이미지">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="deco">
+                        <img src="../../image/main/img_deco_shapes.png" alt="도형 이미지">
                     </div>
                 </div>
             </section>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.item-slick').slick({
+                        variableWidth: true,
+                        dots: false,
+                        arrows: false,
+                        infinite: false,
+                        slidesToShow: 3,
+                        draggable: false,
+                        responsive: [
+                            {
+                                breakpoint: 768,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    dots: true,
+                                    draggable: true,
+                                }
+                            },
+                        ]
+                    });
+                });
+            </script>
             <!-- e:section-2 -->
             <ul class="scroll_list">
                 <li class="scroll-1">
-                    <span class="item">ALL NEW - JUICY</span>
+                    <span class="item bowlbyone">ALL NEW - JUICY</span>
                 </li>
                 <li class="scroll-2">
-                    <span class="item">JU EAT NOW</span>
+                    <span class="item bowlbyone">JU EAT NOW</span>
                 </li>
             </ul>
+            <script type="text/javascript">
+            </script>
             <!-- s:section-3 -->
-            <section class="section-3">
-                <div class="news-wrap">
+            <section class="section-3 pt160 pb160">
+                <div class="news-wrap default-wrap">
                     <div class="title-wrap">
-                        <h2>쥬씨<span class="highlight">소식</span></h2>
-                        <p>싱싱한 쥬씨의<br/> 새소식을 전해드립니다!</p>
+                        <h2 class="font64 color-FF001E bowlbyone mb16">NEWS</h2>
+                        <p class="font32 bold">싱싱한 쥬씨의<br/> 새소식을 전해드립니다!</p>
                     </div>
-                    <ul class="news-list-wrap">
+                    <ul class="news-list-wrap pt72 cl-b">
                         <li>
-                            <a href="">
+                            <a href="javascript:void(0)">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news01.jpg" alt="What's NEW? 쥬씨 멤버십이 새롭게 달라집니다.">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
+                                <span class="category">NEWS</span>
+                                <span class="subject">쥬씨, 망고전문점 ‘고망고’ 캐릭터 이벤트 성료</span>
+                                <div class="img-wrap">
+                                    <img src="../../image/main/img_news04.jpg" alt="고망고 캐릭터 이름짓기 EVENT. 내 이름을 부탁해">
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0)">
                                 <span class="category">NEWS</span>
                                 <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
                                 <div class="img-wrap">
@@ -287,7 +388,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="javascript:void(0)">
                                 <span class="category">NEWS</span>
                                 <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
                                 <div class="img-wrap">
@@ -296,7 +397,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="javascript:void(0)">
                                 <span class="category">NEWS</span>
                                 <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
                                 <div class="img-wrap">
@@ -305,25 +406,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
-                                <span class="category">NEWS</span>
-                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
-                                <div class="img-wrap">
-                                    <img src="../../image/main/img_news01.jpg" alt="">
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span class="category">NEWS</span>
-                                <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
-                                <div class="img-wrap">
-                                    <img src="../../image/main/img_news01.jpg" alt="">
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
+                            <a href="javascript:void(0)">
                                 <span class="category">NEWS</span>
                                 <span class="subject">쥬씨패밀리 멤버십 서비스 앱 출시 안내</span>
                                 <div class="img-wrap">
@@ -332,7 +415,9 @@
                             </a>
                         </li>
                     </ul>
-                    <button type="button" class="btn more radius"><a href="">더 불러오기</a></button>
+                    <button type="button" class="btn more radius">
+                        <a href="javascript:void(0)" class="font14 bold d-block">더 불러오기</a>
+                    </button>
                 </div>
             </section>
             <!-- e:section-3 -->
@@ -340,8 +425,8 @@
             <section class="section-4">
                 <div class="map-wrap">
                     <div class="text-box">
-                        <h2>원하시는 지역의<br/> 매장을 검색해 보세요!</h2>
-                        <div class="search-wrap">
+                        <h2 class="font64 color-FFFFFF ta-c">원하시는 지역의<br/> 매장을 검색해 보세요!</h2>
+                        <div class="search-wrap mt32">
                             <input type="text" name="searchKeyword" id="searchKeyword" placeholder="Find a store in your area!">
                             <button type="button" class="btn-search"></button>
                         </div>
@@ -356,25 +441,27 @@
         <!-- //e:contentsWrap -->
         <!-- s:footerWrap -->
         <footer id="footerWrap">
-            <div class="footer-inner">
+            <div class="footer-inner pt32 pb32 ta-c">
                 <div class="footer-logo">
                     <img src="../../image/common/img_footer_logo.png" alt="Juicy logo">
                 </div>
-                <address>
+                <address class="mt32">
                     <span>
                         서울특별시 성동구 왕십리로 16가길 24층<br/>
                         영남사무소 : 부산광역시 수영구 광안2동 203-6 신화빌딩 5층
                     </span>
-                    <a href="tel:1599-1028" class="info">TEL : 1599-1028</a>
-                    <span class="info">FAX: 051-754-0109</span>
+                    <span class="number">
+                        <a href="tel:1599-1028" class="info">TEL : 1599-1028</a>
+                        <span class="info">FAX: 051-754-0109</span>
+                    </span>
                 </address>
                 <div class="btn-wrap">
                     <a href="btn red">개인정보처리방침</a>
                     <a href="btn red">쥬씨 가맹점주 커뮤니티</a>
                 </div>
                 <ul class="sns-wrap">
-                    <li><a href="../../image/common/icon_facebook.png"><img src="" alt="facebook icon"></a></li>
-                    <li><a href="../../image/common/icon_instagram.png"><img src="" alt="instagram icon"></a></li>
+                    <li><a href="https://www.facebook.com/no1.juicy/" target="_blank" title="새창이동"><img src="../../image/common/icon_facebook.png" alt="facebook icon"></a></li>
+                    <li><a href="https://www.instagram.com/newjuicy_kr/" target="_blank" title="새창이동"><img src="../../image/common/icon_instagram.png" alt="instagram icon"></a></li>
                 </ul>
             </div>
             <div class="copyright">

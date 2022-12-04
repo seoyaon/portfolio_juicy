@@ -3,18 +3,18 @@
 @import url("font.css");
 /*base*/
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-body{ width:100%; height:100%; text-align:left; font-size:18px; font-weight:400; font-family:"Noto","Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif; color:#000; line-height:1.625; -webkit-overflow-scrolling:touch; letter-spacing: -0.03em; }
+body{ width:100%; height:100%; text-align:left; font-size:16px; font-weight:400; font-family:"SpoqaHanSansNeo","Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif; color:#000; line-height:1.2; -webkit-overflow-scrolling:touch; letter-spacing: -0.03em; word-break: keep-all; }
 *:focus { box-shadow:none; -webkit-box-shadow:none;}
 *:focus:not(:focus-visible) { outline: 0; }
 body,p,h1,h2,h3,h4,h5,h6,table,caption,form,fieldset,legend,span,div,th,td,address{ margin:0; padding:0; }
 ul,ol,li,dl,dt,dd{list-style:none; margin:0; padding:0px}
-img{ border:0 none; line-height:0; font-size:0; vertical-align:top; }
+img{ border:0 none; line-height:0; font-size:0; vertical-align:middle; }
 main,header,section,nav,footer,aside,article,figure{ display:block; }
 table{border-collapse:collapse; border-spacing:0; width:100%}
 fieldset{border:0}
 legend, caption{width:0; height:0; text-indent:-10000px; font-size:0px; line-height:0; position:absolute; left:-99999px; }
 textarea{border:2px solid #dbdbdc; padding:8px 10px !important; line-height:18px; resize:none; }
-input, textarea { vertical-align:middle; font-size:16px; color:#000; font-family:"Noto","Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif; padding:0; margin:0; }
+input, textarea { vertical-align:middle; font-size:16px; color:#000; font-family:"SpoqaHanSansNeo","Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", sans-serif; padding:0; margin:0; border: 0; background-color: transparent; }
 input[type="checkbox"] { width:12px; height:12px; margin-right:7px;}
 input[type="radio"] { width:13px; height:13px; border:none; }
 input[type="file"]{height:22px; color:#666; border:1px solid #d4d4d4; line-height:22px; vertical-align:middle; background:#fff}
@@ -31,7 +31,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 .of-hi { overflow:hidden !important; }
 .fl-l { float:left !important; }
 .fl-r { float:right !important; }
-.cl-b { width:0; height:0; font-size:0; line-height:0; clear:both;}
+.cl-b::after { content: ""; display: block; clear:both;}
 .va-m { vertical-align:middle !important;}
 .va-t { vertical-align: top !important;}
 .va-b { vertical-align: bottom !important;}
@@ -40,6 +40,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 .ta-l { text-align:left !important; }
 .ta-r { text-align:right !important; }
 .w100 { width:100% !important; }
+.h100 { height: 100% !important; }
 .ellipse { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
 .ellipse.lh2 { white-space: normal; line-height: 1.2; height: 2.4em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 .ellipse.lh3 { white-space: normal; line-height: 1.2; height: 3.6em; text-align: left; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
@@ -60,6 +61,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 .mt100 { margin-top: 100px !important; }
 .mt120 { margin-top: 120px !important; }
 .mt160 { margin-top: 160px !important; }
+.mt180 { margin-top: 180px !important; }
 
 .mb0 { margin-bottom: 0 !important;}
 .mb8 { margin-bottom: 8px !important; }
@@ -75,6 +77,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 .mb100 { margin-bottom: 100px !important; }
 .mb120 { margin-bottom: 120px !important; }
 .mb160 { margin-bottom: 160px !important; }
+.mb180 { margin-bottom: 180px !important; }
 
 .ml0 { margin-left: 0 !important;}
 .ml8 { margin-left: 8px !important; }
@@ -103,6 +106,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 .pt100 { padding-top: 100px !important; }
 .pt120 { padding-top: 120px !important; }
 .pt160 { padding-top: 160px !important; }
+.pt180 { padding-top: 180px !important; }
 
 .pb0 { padding-bottom: 0 !important;}
 .pb8 { padding-bottom: 8px !important; }
@@ -118,6 +122,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 .pb100 { padding-bottom: 100px !important; }
 .pb120 { padding-bottom: 120px !important; }
 .pb160 { padding-bottom: 160px !important; }
+.pb180 { padding-bottom: 180px !important; }
 
 
 /*radio, checkbox custom style*/
@@ -155,6 +160,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .mt100 { margin-top: 100px !important; }
     .mt120 { margin-top: 60px !important; }
     .mt160 { margin-top: 80px !important; }
+    .mt180 { margin-top: 90px !important; }
     
     .mb0 { margin-bottom: 0 !important;}
     .mb8 { margin-bottom: 8px !important; }
@@ -170,6 +176,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .mb100 { margin-bottom: 100px !important; }
     .mb120 { margin-bottom: 60px !important; }
     .mb160 { margin-bottom: 80px !important; }
+    .mb180 { margin-bottom: 90px !important; }
     
     .ml0 { margin-left: 0 !important;}
     .ml8 { margin-left: 8px !important; }
@@ -198,6 +205,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .pt100 { padding-top: 100px !important; }
     .pt120 { padding-top: 60px !important; }
     .pt160 { padding-top: 80px !important; }
+    .pt180 { padding-top: 90px !important; }
     
     .pb0 { padding-bottom: 0 !important;}
     .pb8 { padding-bottom: 8px !important; }
@@ -213,6 +221,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .pb100 { padding-bottom: 100px !important; }
     .pb120 { padding-bottom: 60px !important; }
     .pb160 { padding-bottom: 80px !important; }
+    .pb180 { padding-bottom: 90px !important; }
 }
 
 @media (min-width: 1193px) {
