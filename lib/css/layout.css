@@ -1,14 +1,16 @@
 @charset "utf-8";
 
 /******** Common ********/
-#wrap { width:100%; min-width:320px; max-width: 100%; margin:0 auto; overflow:hidden; background-color: #fff; color: #000}
+#wrap { position: relative; width:100%; min-width:320px; max-width: 100%; margin:0 auto; overflow:hidden; background-color: #fff; color: #000}
 #skipnavi li a {  display:block; font-size:16px; width:100%; position:absolute; top:-10000px; left:0; text-align:center; z-index:999999; line-height:1; letter-spacing:0 ; }
 #skipnavi li a:focus { position:absolute; top:0; left:0; font-weight:bold; color:#fff; background:#272727; padding:20px 0; line-height:1; }
+h2 { font-size: 3.3vw; font-weight: normal; font-family: 'Bowlby One'; letter-spacing: 0.02em; color: #FF001E; }
 .mo-hidden { display: block; }
 .pc-hidden { display: none; }
 
 /******** layout ********/
 .default-wrap { max-width: 1234px; width: 100%; height: 100%; padding-left: 20px; padding-right: 20px; margin-left: auto; margin-right: auto; }
+.default-wrap.wide { max-width: 1720px; }
 
 /******** font ********/
 .font120 { font-size: 120px !important; }
@@ -38,6 +40,7 @@
 /******** background ********/
 .bg-FFFFFF { background-color: #FFFFFF !important; }
 .bg-FF001E { background-color: #FF001E !important; }
+.bg-FAF8F6 { background-color: #FAF8F6 !important; }
 
 /*display*/
 .d-block { display:block !important; }
@@ -50,6 +53,30 @@ hr.title { height: 2px; }
 
 /******** btn ********/
 
+
+/******** headerWrap ********/
+#headerWrap { width: 100%; height: 100px; position: absolute; top: 0; left: 0; z-index: 1; }
+#headerWrap .inner { max-width: 1194px; width: 100%; height: 100%; margin: 0 auto; display: flex; align-items: center; }
+#headerWrap .inner .logo { max-width: 151px; width: 100%; height: 71px; }
+#headerWrap .inner .logo img { width: 100%; }
+#headerWrap .inner nav { flex-grow:1; height: 100%; }
+#headerWrap .inner .gnb-wrap.pc::after { content: ""; display: block; clear: both; }
+#headerWrap .inner .gnb-wrap.pc > li { position: relative; max-width: 148px; width: 100%; height: 100%; line-height: 100px; float: left; }
+#headerWrap .inner .gnb-wrap.pc > li > a { display: block; height: 100%; font-size: 18px; font-weight: bold; padding-left: 48px }
+#headerWrap .inner .gnb-wrap.pc > li > .sub-menu { display: none; position: absolute; background-color: #fff; border-radius: 12px; }
+#headerWrap .inner .gnb-wrap.pc > li > .sub-menu > li { width: 148px; height: 40px; line-height: 40px; }
+#headerWrap .inner .gnb-wrap.pc > li > .sub-menu > li > a { display: block; width: 100%; height: 100%; font-size: 14px; padding-left: 23px;}
+#headerWrap .inner .sign-wrap { overflow: hidden; line-height: 40px; }
+#headerWrap .inner .sign-wrap > li { float: left; }
+#headerWrap .inner .sign-wrap > li > a { font-size: 18px; font-weight: bold;}
+#headerWrap .inner .sign-wrap > .sign-in {}
+#headerWrap .inner .sign-wrap > .sign-in > a { color: #FF001E; }
+#headerWrap .inner .sign-wrap > .sign-up { width: 125px; height: 40px; line-height: 40px; text-align: center; background-color: #FF001E; border-radius: 50px; margin-left: 24px }
+#headerWrap .inner .sign-wrap > .sign-up > a { display: block; width: 100%; height: 100%; color: #fff; }
+
+#headerWrap.main .gnb-wrap > li > a { color: #fff; }
+#headerWrap.main.white .gnb-wrap > li > a { color: #fff; }
+#headerWrap.sub .gnb-wrap > li > a { color: #FF001E; }
 
 /******* footerWrap ********/
 #footerWrap .footer-inner { max-width: 476px; margin: 0 auto; }
@@ -70,13 +97,22 @@ hr.title { height: 2px; }
 #footerWrap .copyright p { color: #FFF; font-size: 18px; font-weight: bold; text-align: center; }
 
 @media (max-width: 1280px) { 
+    h2.font64 { font-size: 32px !important; }
+    .mo-hidden { display: none; }
+    .pc-hidden { display: block; } 
 
+    #headerWrap { height: 55px; }
+    #headerWrap .inner { padding: 0 20px; }
+    #headerWrap .inner .logo { max-width: 81px; height: 38px; }
+    #headerWrap .inner .mo { float: right; }
+    #headerWrap .inner .mo > .menu.btn { width: 22px; height: 17px; margin: 19px 0; }
+    #headerWrap .inner .mo > .menu.btn > span { display: block; width: 100%; height: 3px; background-color: #FF001E; margin-bottom: 4px; }
+    #headerWrap .inner .mo > .menu.btn > span:last-child { margin-bottom: 0; }
+    #headerWrap .inner .mo > .gnb-wrap.mo { display: none; }
 }
 
 
-@media (max-width: 1024px) { 
-    .mo-hidden { display: none; }
-    .pc-hidden { display: block; }  
+@media (max-width: 1024px) {  
 
     /******** font ********/
     .font120 { font-size: 60px !important; }
