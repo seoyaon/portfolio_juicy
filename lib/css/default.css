@@ -151,8 +151,8 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .mt16 { margin-top: 16px !important; }
     .mt24 { margin-top: 24px !important; }
     .mt32 { margin-top: 32px !important; }
-    .mt40 { margin-top: 40px !important; }
-    .mt48 { margin-top: 48px !important; }
+    .mt40 { margin-top: 20px !important; }
+    .mt48 { margin-top: 24px !important; }
     .mt56 { margin-top: 28px !important; }
     .mt64 { margin-top: 64px !important; }
     .mt72 { margin-top: 64px !important; }
@@ -167,8 +167,8 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .mb16 { margin-bottom: 16px !important; }
     .mb24 { margin-bottom: 24px !important; }
     .mb32 { margin-bottom: 32px !important; }
-    .mb40 { margin-bottom: 40px !important; }
-    .mb48 { margin-bottom: 48px !important; }
+    .mb40 { margin-bottom: 20px !important; }
+    .mb48 { margin-bottom: 28px !important; }
     .mb56 { margin-bottom: 28px !important; }
     .mb64 { margin-bottom: 64px !important; }
     .mb72 { margin-bottom: 64px !important; }
