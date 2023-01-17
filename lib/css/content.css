@@ -2,8 +2,8 @@
 
 /******** content1-1 ********/
 #content1-1 .section-1 .has-bg { background-repeat: no-repeat; background-size: cover; background-position: center; }
-#content1-1 .section-1 .full-page { position: relative; width: 100%; height: 100vh; }
-#content1-1 .section-1 .full-page > div { position: relative; width: 50%; height: 100%; float: left; }
+#content1-1 .section-1 .full-page { position: relative; width: 100%; overflow: hidden; }
+#content1-1 .section-1 .full-page > div { position: relative; width: 50%; padding-bottom: 39.24%; float: left; }
 #content1-1 .section-1 .full-page.global-network > div { float: right; }
 #content1-1 .section-1 .inner-wrap .desc-wrap { position: absolute; top: 50%; left: 80px; transform: translateY(-50%); padding: 0 24px; }
 #content1-1 .section-1 .inner-wrap .desc-wrap > h2 { margin-bottom: 24px; }
@@ -45,12 +45,7 @@
 }
 @media (max-width:1024px){
 
-    /******** content1-1 ********/
-    #content1-1 .section-2 .our-mission .perpen-area { width: 100%; height: 560px; margin-right: 0; margin-bottom: 34px; background-position: bottom 47px center; }
-    #content1-1 .section-2 .our-mission .horiz-area { width: 100%; height: auto; }
-    #content1-1 .section-2 .our-mission .horiz-area > div { width: 100%;  height: 560px; background-position: bottom 66px center; padding-right: 12px; }
-    #content1-1 .section-2 .our-mission .horiz-area > div:last-child { background-position: bottom 82px center; }
-    #content1-1 .section-2 .our-mission .inner { padding: 28px 12px 0 13px; }
+
 
     #content1-1 .section-3 ul li { height: 197px; }
     #content1-1 .section-3 ul li span { max-width: 60px; }
@@ -76,6 +71,12 @@
     /******** content1-1 ********/
     #content1-1 .section-3 ul li { padding-left: 50px; }
 
+        /******** content1-1 ********/
+        #content1-1 .section-2 .our-mission .perpen-area { width: 100%; height: 560px; margin-right: 0; margin-bottom: 34px; background-position: bottom 47px center; }
+        #content1-1 .section-2 .our-mission .horiz-area { width: 100%; height: auto; }
+        #content1-1 .section-2 .our-mission .horiz-area > div { width: 100%;  height: 560px; background-position: bottom 66px center; padding-right: 12px; }
+        #content1-1 .section-2 .our-mission .horiz-area > div:last-child { background-position: bottom 82px center; }
+        #content1-1 .section-2 .our-mission .inner { padding: 28px 12px 0 13px; }
 }
 @media (max-width: 560px) {
     /******** content1-1 ********/
