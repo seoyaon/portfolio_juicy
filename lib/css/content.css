@@ -5,10 +5,12 @@
 #content1-1 .section-1 .full-page { position: relative; width: 100%; overflow: hidden; }
 #content1-1 .section-1 .full-page > div { position: relative; width: 50%; padding-bottom: 39.24%; float: left; }
 #content1-1 .section-1 .full-page.global-network > div { float: right; }
-#content1-1 .section-1 .inner-wrap .desc-wrap { position: absolute; top: 50%; left: 80px; transform: translateY(-50%); padding: 0 24px; }
+#content1-1 .section-1 .inner-wrap .desc-wrap { position: absolute; top: 50%; transform: translateY(-50%); padding: 0 24px; }
 #content1-1 .section-1 .inner-wrap .desc-wrap > h2 { margin-bottom: 24px; }
 #content1-1 .section-1 .brand-story .has-bg { background-image: url(../../image/page/bg_brand_story01.jpg); }
 #content1-1 .section-1 .global-network .has-bg { background-image: url(../../image/page/bg_brand_story02.jpg); }
+#content1-1 .section-1 .brand-story .desc-wrap { left: 80px; }
+#content1-1 .section-1 .global-network .desc-wrap { right: 80px; }
 
 #content1-1 .section-2 .our-mission .perpen-area { float: left; width: calc(33% - 34px); height: 677px; margin-right: 34px; background-image: url(../../image/page/bg_customer.jpg); background-repeat: no-repeat; background-position: bottom 60px center; background-size: auto 284px; }
 #content1-1 .section-2 .our-mission .horiz-area { float: left; width: 67%; }
@@ -16,20 +18,24 @@
 #content1-1 .section-2 .our-mission .horiz-area > div:last-child { margin-top: 34px; background-image: url(../../image/page/bg_staff.jpg); background-position: center right 94px; }
 #content1-1 .section-2 .our-mission .inner { padding: 52px; height: 100%; }
 
-#content1-1 .section-3 ul li { position: relative; width: 100%; height: 338px; background-repeat: no-repeat; background-position: center; background-size: cover; margin-bottom: 16px; padding-left: 100px; }
-#content1-1 .section-3 ul li > div { display: flex; justify-content: flex-end; align-items: center;}
-#content1-1 .section-3 ul li::after { content: ""; display: block; width: 100%; height: 100%; background-color: rgba(0,0,0,.4); position: absolute; top: 0; left: 0; }
-#content1-1 .section-3 ul li span { max-width: 120px; width: 100%; height: auto; position: absolute; top: 50%; left: 0; transform: translateY(-50%); z-index: 1; }
-#content1-1 .section-3 ul li span > img { width: 100%; }
-#content1-1 .section-3 ul li .desc-wrap { z-index: 1; max-width: 442px; width: 100%; }
-#content1-1 .section-3 ul li .desc-wrap p { font-size: 32px; margin-bottom: 16px; }
-#content1-1 .section-3 ul li:nth-child(1) { background-image: url(../../image/page/bg_juicy_presso.png); }
-#content1-1 .section-3 ul li:nth-child(2) { background-image: url(../../image/page/bg_gomango.jpg); }
-#content1-1 .section-3 ul li:nth-child(3) { background-image: url(../../image/page/bg_chayam.jpg); }
-#content1-1 .section-3 ul li:nth-child(4) { background-image: url(../../image/page/bg_tigersushi.png); }
-#content1-1 .section-3 ul li:nth-child(5) { background-image: url(../../image/page/bg_waffee.png); margin-bottom: 0; }
-#content1-1 .section-3 ul li:nth-child(4) > span,
-#content1-1 .section-3 ul li:nth-child(5) > span { width: 180px; }
+#content1-1 .section-3 ul li { position: relative; width: 100%; height: 338px; margin-bottom: 16px; overflow: hidden; }
+#content1-1 .section-3 ul li a { position: relative; display: block; width: 100%; height: 100%; }
+#content1-1 .section-3 ul li a .bg-wrap { display: block; width: 100%; height: 100%; background-repeat: no-repeat; background-size: cover; background-position: center; position: absolute; top: 0; left: 0; transition: all .4s; }
+#content1-1 .section-3 ul li a .bg-wrap::after { content: ""; display: block; width: 100%; height: 100%; background-color: rgba(0,0,0,.5); }
+#content1-1 .section-3 ul li a > span { position: relative; z-index: 1; }
+#content1-1 .section-3 ul li a .desc-wrap { display: flex; align-items: center; justify-content: space-around; width: 100%; position: absolute; top: 50%; transform: translateY(-50%); }
+#content1-1 .section-3 ul li a .desc-wrap > span { margin: 0 10px; }
+#content1-1 .section-3 ul li a .desc-wrap .brand-logo { display: block; max-width: 120px; width: 100%; height: auto; }
+#content1-1 .section-3 ul li a .desc-wrap .brand-logo > img { width: 100%; }
+#content1-1 .section-3 ul li a .desc-wrap > .txt-wrap > span { font-size: 32px; }
+#content1-1 .section-3 ul li a .desc-wrap > .txt-wrap button { display: block; margin-top: 16px; }
+#content1-1 .section-3 ul li:nth-child(1) a .bg-wrap { background-image: url(../../image/page/bg_juicy_presso.png); }
+#content1-1 .section-3 ul li:nth-child(2) a .bg-wrap { background-image: url(../../image/page/bg_gomango.jpg); }
+#content1-1 .section-3 ul li:nth-child(3) a .bg-wrap { background-image: url(../../image/page/bg_chayam.jpg); }
+#content1-1 .section-3 ul li:nth-child(4) a .bg-wrap { background-image: url(../../image/page/bg_tigersushi.png); }
+#content1-1 .section-3 ul li:nth-child(5) a .bg-wrap { background-image: url(../../image/page/bg_waffee.png); margin-bottom: 0; }
+#content1-1 .section-3 ul li:nth-child(4) > .image-wrap,
+#content1-1 .section-3 ul li:nth-child(5) > .image-wrap { width: 180px; }
 
 @keyframes fade-left {
     0% { transform: translateX(40%); opacity: 0; }
@@ -44,15 +50,12 @@
     
 }
 @media (max-width:1024px){
-
-
-
+    /******** content1-1 ********/
     #content1-1 .section-3 ul li { height: 197px; }
-    #content1-1 .section-3 ul li span { max-width: 60px; }
-    #content1-1 .section-3 ul li .desc-wrap { max-width: 250px; }
-    #content1-1 .section-3 ul li .desc-wrap p { font-size: 18px; margin-bottom: 8px; }
-    #content1-1 .section-3 ul li .desc-wrap > button { width: 18px; height: 18px; }
-    #content1-1 .section-3 ul li .desc-wrap > button > img { width: 100%; }
+    #content1-1 .section-3 ul li a .desc-wrap .brand-logo { max-width: 60px; }
+    #content1-1 .section-3 ul li a .desc-wrap .txt-wrap > span { font-size: 18px; margin-bottom: 8px; }
+    #content1-1 .section-3 ul li a .desc-wrap .txt-wrap > button { width: 18px; height: 18px; }
+    #content1-1 .section-3 ul li a .desc-wrap .txt-wrap > button > img { width: 100%; }
     
 }
 @media (max-width: 991px) {
@@ -65,23 +68,18 @@
     #content1-1 .section-1 .inner-wrap .desc-wrap { position: static; transform: none; max-width: 384px; width: 100%; text-align: center; margin: 0 auto; padding: 80px 22px; }
     #content1-1 .section-1 .inner-wrap .desc-wrap > h2 { margin-bottom: 17px; }
 
-
 }
 @media (max-width: 768px) {
     /******** content1-1 ********/
-    #content1-1 .section-3 ul li { padding-left: 50px; }
-
-        /******** content1-1 ********/
-        #content1-1 .section-2 .our-mission .perpen-area { width: 100%; height: 560px; margin-right: 0; margin-bottom: 34px; background-position: bottom 47px center; }
-        #content1-1 .section-2 .our-mission .horiz-area { width: 100%; height: auto; }
-        #content1-1 .section-2 .our-mission .horiz-area > div { width: 100%;  height: 560px; background-position: bottom 66px center; padding-right: 12px; }
-        #content1-1 .section-2 .our-mission .horiz-area > div:last-child { background-position: bottom 82px center; }
-        #content1-1 .section-2 .our-mission .inner { padding: 28px 12px 0 13px; }
+    #content1-1 .section-2 .our-mission .perpen-area { width: 100%; height: 560px; margin-right: 0; margin-bottom: 34px; background-position: bottom 47px center; }
+    #content1-1 .section-2 .our-mission .horiz-area { width: 100%; height: auto; }
+    #content1-1 .section-2 .our-mission .horiz-area > div { width: 100%;  height: 560px; background-position: bottom 66px center; padding-right: 12px; }
+    #content1-1 .section-2 .our-mission .horiz-area > div:last-child { background-position: bottom 82px center; }
+    #content1-1 .section-2 .our-mission .inner { padding: 28px 12px 0 13px; }
 }
-@media (max-width: 560px) {
-    /******** content1-1 ********/
-    #content1-1 .section-3 ul li { padding-left: 24px; }
-    #content1-1 .section-3 ul li .desc-wrap { max-width: 138px; }
 
+@media (min-width: 768px){
+    /******** content1-1 ********/
+    #content1-1 .section-3 ul li a:hover .bg-wrap { transform: scale(1.1); }
 }
 
