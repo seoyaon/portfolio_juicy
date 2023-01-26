@@ -35,10 +35,7 @@
 #content1-1 .section-3 ul li:nth-child(4) > .image-wrap,
 #content1-1 .section-3 ul li:nth-child(5) > .image-wrap { width: 180px; }
 
-@keyframes fade-left {
-    0% { transform: translateX(40%); opacity: 0; }
-    100% { transform: translateX(0%); opacity: 1;}
-}
+/******** content1-2 ********/
 
 @media (max-width:1280px){
     #contentsWrap { padding-top: 55px; }
