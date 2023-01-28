@@ -2,63 +2,392 @@
     "data" : [
         {
             "product_title" : "1리터아메리카노",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee01.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "아메리카노",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee02.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "카페라떼",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee03.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "카라멜마끼야또",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee04.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "바닐라라떼",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee05.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "민트카페모카",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee06.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "연유라떼",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee07.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "카페모카",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee08.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "티라미수라떼",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee09.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "헤이즐넛라떼",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee10.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "달고나카페라떼",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee11.png",
             "product_type":"coffee"
         },
         {
             "product_title" : "아포카토",
-            "product_thumb" : "",
+            "product_thumb" : "../../image/menu_list/img_presso_coffee12.png",
             "product_type":"coffee"
-        }
+        },
+
+        {
+            "product_title" : "딸바",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "망고",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "블루베리",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "수박주스",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "아보카도",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "아보카도바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "오렌지",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "오렌지파인애플",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "자몽",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "청포도",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "초바",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "키위",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "키위바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "토마토",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "파인애플",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "홍시",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "초바킹",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "딸바킹",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "블루베리바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "말차바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "땅콩카라멜바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "코코넛바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+        {
+            "product_title" : "1리터바나나",
+            "product_thumb" : "",
+            "product_type":"juice"
+        },
+
+        {
+            "product_title" : "파인팩",
+            "product_thumb" : "",
+            "product_type":"fruitPack"
+        },
+        {
+            "product_title" : "수박팩",
+            "product_thumb" : "",
+            "product_type":"fruitPack"
+        },
+        {
+            "product_title" : "과일팩",
+            "product_thumb" : "",
+            "product_type":"fruitPack"
+        },
+        {
+            "product_title" : "1KG 과일팩",
+            "product_thumb" : "",
+            "product_type":"fruitPack"
+        },
+
+        {
+            "product_title" : "벨기에와플",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "초코와플",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "치즈와플",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "달고나와플",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "크로플",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "쿠키(클래식)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "쿠키(블랙핑크)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "쿠키(베리화이트)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "쿠키(솔티브라우니)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "뚱카롱(꿀꿀바)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "뚱카롱(죠리퐁)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "뚱카롱(티라미수)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "뚱카롱(치즈크래커)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "뚱카룽(쿠키크런치)",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "후르츠산도",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "아이스크림",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "밀크크레이프케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "초코머드케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "수플레치즈케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "밀키롤케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "그린티롤케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "초코롤케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "블루베리케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "파인애플케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "바나나케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "키위케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+        {
+            "product_title" : "과일믹스케이크",
+            "product_thumb" : "",
+            "product_type":"dessert"
+        },
+
+        {
+            "product_title" : "생딸기초코라떼",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸기치즈스무디",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸기에이드",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸파르페",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸라떼",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸기주스",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸망고",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸키위",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "떠먹는 딸기케이크",
+            "product_thumb" : "",
+            "product_type":"season"
+        },
+        {
+            "product_title" : "생딸기케이크",
+            "product_thumb" : "",
+            "product_type":"season"
+        } 
     ]
 }

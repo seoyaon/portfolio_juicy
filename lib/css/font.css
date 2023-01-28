@@ -82,3 +82,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Jalnan';
+    src: url('../font/JalnanOTF.eot');
+    src: url('../font/JalnanOTF.eot?#iefix') format('embedded-opentype'),
+        url('../font/JalnanOTF.woff2') format('woff2'),
+        url('../font/JalnanOTF.woff') format('woff'),
+        url('../font/JalnanOTF.ttf') format('truetype'),
+        url('../font/JalnanOTF.svg#JalnanOTF') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
