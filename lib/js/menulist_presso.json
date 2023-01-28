@@ -1,0 +1,64 @@
+{
+    "data" : [
+        {
+            "product_title" : "1리터아메리카노",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "아메리카노",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "카페라떼",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "카라멜마끼야또",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "바닐라라떼",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "민트카페모카",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "연유라떼",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "카페모카",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "티라미수라떼",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "헤이즐넛라떼",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "달고나카페라떼",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        },
+        {
+            "product_title" : "아포카토",
+            "product_thumb" : "",
+            "product_type":"coffee"
+        }
+    ]
+}
