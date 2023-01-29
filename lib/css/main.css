@@ -1,7 +1,7 @@
 /* visual-wrap */
-.visual-wrap { width: 100%; height: 100vh; }
+.visual-wrap h2 { font-family: 'Pretendard'; }
 .visual-slick { position: relative; height: 100%; }
-.visual-slick .slick-list { position: relative; width: 100%; height: 100vh; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.visual-slick .slick-list { position: relative; width: 100%; height: 1080px; background-repeat: no-repeat; background-size: cover; background-position: center; }
 .visual-slick .slick-list:nth-child(1) { background-image: url(../../image/main/img_visual01.jpg); }
 .visual-slick .slick-list:nth-child(2) { background-image: url(../../image/main/img_visual02.jpg); }
 .visual-slick .slick-list:nth-child(3) { background-image: url(../../image/main/img_visual03.jpg); }

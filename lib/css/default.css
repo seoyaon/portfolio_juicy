@@ -18,8 +18,6 @@ input, textarea { vertical-align:middle; font-size:16px; color:#000; font-family
 input[type="checkbox"] { width:12px; height:12px; margin-right:7px;}
 input[type="radio"] { width:13px; height:13px; border:none; }
 input[type="file"]{height:22px; color:#666; border:1px solid #d4d4d4; line-height:22px; vertical-align:middle; background:#fff}
-input.text{height:18px; padding:8px 10px; border:2px solid #dbdbdc; }
-input.date{margin:0 3px 0 0; width:110px}
 em { font-style:normal; }
 iframe { border:none; }
 strong { font-weight:bold; }
@@ -135,7 +133,8 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
 
 
 /*input*/
-
+input[type="text"]:focus { outline: none; }
+input::placeholder { color: rgba(0,0,0,.5); }
 
 /*textarea*/
 
@@ -202,7 +201,7 @@ button { padding:0; border:none; cursor:pointer; font-family:inherit; background
     .pt64 { padding-top: 64px !important; }
     .pt72 { padding-top: 64px !important; }
     .pt80 { padding-top: 40px !important; }
-    .pt100 { padding-top: 100px !important; }
+    .pt100 { padding-top: 50px !important; }
     .pt120 { padding-top: 60px !important; }
     .pt160 { padding-top: 80px !important; }
     .pt180 { padding-top: 90px !important; }

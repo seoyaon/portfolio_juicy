@@ -34,7 +34,7 @@
 #content1-1 .section-3 ul li:nth-child(4) > .image-wrap,
 #content1-1 .section-3 ul li:nth-child(5) > .image-wrap { width: 180px; }
 
-/******** content1-2 ********/
+/******** content2-1 ********/
 .visual-banner { padding-top: 120px; display: grid; grid-gap: 18px; }
 .visual-banner .banner-item > img { width: 100%; height: 100%; object-fit: cover; } 
 .visual-banner .banner-item:nth-child(1) { grid-row: 1/3; grid-column: 1/3; }
@@ -53,6 +53,16 @@
 .menu-list .menu-item > a > .menu-img > img { position: relative; z-index: 1; }
 .menu-list .menu-item > a > .menu-info { display: block; margin-top: 36px; font-weight: 700; }
 
+/******** content3-1 ********/
+.search-wrap { display: flex; justify-content: center; }
+.search-wrap .search-box { max-width: 360px; width: 100%; height: 57px; border: 1px solid #FF001E; border-radius: 5px; padding-left: 24px; font-size: 18px; }
+.search-wrap .search-btn { width: 57px; height: 57px; background-color: #FF001E; border-radius: 5px; vertical-align: middle; background-image: url(../../image/common/icon_search.svg); background-repeat: no-repeat; background-size: 28px 28px; background-position: center; margin-left: 4px; flex-shrink: 0; }
+.news-wrap ul { display: flex; flex-wrap: wrap; justify-content: space-between; }
+.news-wrap ul li { max-width: 330px; }
+.news-wrap ul li .item-thumb { max-width: 330px; width: 100%; height: 330px; background-image: url(../../image/page/img_news01.jpg); background-repeat: no-repeat; background-size: cover; border-radius: 10px; }
+.news-wrap ul li .item-desc { margin-top: 24px; }
+.news-wrap ul li .item-desc p { margin-bottom: 32px; }
+
 @media (max-width:1280px){
     #contentsWrap { padding-top: 55px; }
 
@@ -64,11 +74,16 @@
     #content1-1 .section-3 ul li a .desc-wrap .txt-wrap > button > img { width: 100%; }
     #content1-1 .section-3 ul li a .desc-wrap > span { width: 230px; }
 
+    /******** content3-1 ********/
+    .search-wrap .search-box { max-width: 274px; height: 38px; padding-left: 18px; font-size: 12px; }
+    .search-wrap .search-btn { width: 38px; height: 38px; background-size: 18px 18px; }
+
 
 
     
 }
 @media (max-width:1024px){
+
 
     
 }
