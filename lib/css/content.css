@@ -48,12 +48,14 @@
 #content1-2 .history-work .year { padding-bottom: 140px; position: relative; }
 #content1-2 .history-work .year::before { content: ""; display: block; width: 9px; height: 9px; background-color: #999999; border: 6px solid #FAF8F6; border-radius: 50px; position: absolute; top: 0; left: -44px; z-index: 1; }
 #content1-2 .history-work .year > ul > li { margin-bottom: 64px; display: flex; }
-#content1-2 .history-work .year > ul > li > .month { width: 66px; height: 39px; color: #999999; font-size: 32px; font-weight: 500; margin-right: 52px; }
-#content1-2 .history-work .year > ul > li > .work > li { font-size: 24px; }
+#content1-2 .history-work .year > ul > li:last-child { margin-bottom: 0; }
+#content1-2 .history-work .year > ul > li > .month { width: 66px; height: 39px; color: #999999; font-size: 32px; font-weight: 500; margin-right: 52px; flex-shrink: 0; }
+#content1-2 .history-work .year > ul > li > .work > li { font-size: 24px; word-break: keep-all; }
 #content1-2 .history-work .year > ul > li > .work > li + li { margin-top: 24px; }
 
 #content1-2 .history-work .year.active::before { width: 16px; height: 16px; border: 6px solid #FAF8F6; background-color: #FAF8F6; box-shadow: 0 0 0 3px #ff001e inset; position: absolute; top: 0; left: -48px; }
 #content1-2 .history-work .year.active > ul > li > .month { color: #FF001E; }
+#content1-2 .history-work .year .year-mo { display: none; }
 
 #content1-2 .history-inner .line { width: 1px; height: 100%; background-color: #999999; position: absolute; top: 120px; left: 50%; transform: translateX(-50%); }
 
@@ -106,8 +108,7 @@
     
 }
 @media (max-width:1024px){
-
-
+    #content1-2 .history-inner .line { top: 88px; }
     
 }
 @media (max-width: 991px) {
@@ -118,7 +119,7 @@
     #content1-1 .section-1 .brand-story .has-bg { background-image: url(../../image/page/bg_brand_story01_mo.jpg); }
     #content1-1 .section-1 .full-page.global-network > div { float: none; }
     #content1-1 .section-1 .inner-wrap .desc-wrap { position: static; transform: none; max-width: 384px; width: 100%; text-align: center; margin: 0 auto; padding: 80px 22px; }
-
+    
 }
 @media (max-width: 768px) {
     /******** content1-1 ********/
@@ -127,6 +128,22 @@
     #content1-1 .section-2 .our-mission .horiz-area > div { width: 100%;  height: 560px; background-position: bottom 66px center; padding-right: 12px; }
     #content1-1 .section-2 .our-mission .horiz-area > div:last-child { background-position: bottom 82px center; }
     #content1-1 .section-2 .our-mission .inner { padding: 28px 12px 0 13px; }
+
+    /******** content1-2 ********/
+    #content1-2 .history-tab { overflow: hidden; overflow-x: auto; padding-top: 15px; }
+    #content1-2 .history-tab li { min-width: 232px; height: 45px; line-height: 45px; }
+    #content1-2 .history-tab li a { font-size: 24px; }
+    #content1-2 .history-tab li.active::after { width: 25px; height: 25px; top: -15px; }
+    #content1-2 .history-tab li + li::before { height: 20px; }
+    #content1-2 .year-box { display: none; }
+    #content1-2 .history-work { width: calc(100% - 55px); }
+    #content1-2 .history-work .year { padding-bottom: 70px; }
+    #content1-2 .history-work .year .year-mo { display: block; font-size: 70px; font-weight: bold; color: #999999; margin-bottom: 32px; }
+    #content1-2 .history-work .year.active .year-mo { color: #FF001E;}
+    #content1-2 .history-work .year > ul > li { margin-bottom: 32px; }
+    #content1-2 .history-work .year > ul > li > .month { width: 48px; height: 29px; font-size: 24px; margin-right: 17px; }
+    #content1-2 .history-work .year > ul > li > .work > li { font-size: 18px; }
+    #content1-2 .history-inner .line { top: 80px; left: 20px; transform: none;}
 
     /******** content2-1 ********/
     #content2-1 .visual-banner .banner-item:nth-child(1) { grid-row: 1/2; grid-column: 1/3; }

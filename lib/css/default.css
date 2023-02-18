@@ -156,7 +156,7 @@ input::placeholder { color: rgba(0,0,0,.5); }
     .mt64 { margin-top: 64px !important; }
     .mt72 { margin-top: 64px !important; }
     .mt80 { margin-top: 40px !important; }
-    .mt100 { margin-top: 100px !important; }
+    .mt100 { margin-top: 50px !important; }
     .mt120 { margin-top: 60px !important; }
     .mt160 { margin-top: 80px !important; }
     .mt180 { margin-top: 90px !important; }
@@ -172,7 +172,7 @@ input::placeholder { color: rgba(0,0,0,.5); }
     .mb64 { margin-bottom: 64px !important; }
     .mb72 { margin-bottom: 64px !important; }
     .mb80 { margin-bottom: 40px !important; }
-    .mb100 { margin-bottom: 100px !important; }
+    .mb100 { margin-bottom: 50px !important; }
     .mb120 { margin-bottom: 60px !important; }
     .mb160 { margin-bottom: 80px !important; }
     .mb180 { margin-bottom: 90px !important; }
@@ -217,7 +217,7 @@ input::placeholder { color: rgba(0,0,0,.5); }
     .pb64 { padding-bottom: 64px !important; }
     .pb72 { padding-bottom: 64px !important; }
     .pb80 { padding-bottom: 40px !important; }
-    .pb100 { padding-bottom: 100px !important; }
+    .pb100 { padding-bottom: 50px !important; }
     .pb120 { padding-bottom: 60px !important; }
     .pb160 { padding-bottom: 80px !important; }
     .pb180 { padding-bottom: 90px !important; }
